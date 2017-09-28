@@ -42,8 +42,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "automattic/jetpack": "^5.3",
 "wp-sync-db/wp-sync-db": "dev-master@dev",
-"wp-sync-db/wp-sync-db-media-files": "dev-master"
-
+"wp-sync-db/wp-sync-db-media-files": "dev-master",
+"wpackagist-plugin/rpb-chessboard": "5.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
