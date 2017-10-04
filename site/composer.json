@@ -44,8 +44,8 @@
     "wp-sync-db/wp-sync-db": "dev-master@dev",
     "wp-sync-db/wp-sync-db-media-files": "dev-master",
     "wpackagist-plugin/rpb-chessboard": "5.0",
-    "wpackagist-plugin/table-of-contents-plus": "1601",
-    "wpackagist-theme/twentytwelve": "2.3"
+    "wpackagist-theme/twentytwelve": "2.3",
+    "wpackagist-plugin/child-theme-configurator": "2.2.8.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
