@@ -16,9 +16,11 @@ get_header(); ?>
 	<section id="primary" class="site-content">
 		<div id="content" role="main">
 
-			<?php if ( category_description() ) : // Show an optional category description ?>
-				<div class="archive-meta"><?php echo category_description(); ?></div>
-			<?php endif; ?>
+			<?php if ( have_posts() ) : ?>
+				<header class="archive-header">
+					<?php if ( category_description() ) : // Show an optional category description ?>
+						<div class="archive-meta"><?php echo category_description(); ?></div>
+					<?php endif; ?>
 			</header><!-- .archive-header -->
 
 			<?php
